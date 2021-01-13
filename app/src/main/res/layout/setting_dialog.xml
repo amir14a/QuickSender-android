@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="3dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/swKaheshHajm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:padding="5dp"
+                    android:text="کاهش حجم تصاویر"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="تصاویر به کمترین حجم (با کیفیت قابل قبول) کاهش پیدا خواهند کرد. (خاموش کردن این گزینه ممکن است سبب طولانی شدن زمان ارسال و یا عدم ارسال شود.)"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/swSendFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:padding="5dp"
+                    android:text="ارسال آنی بعد از دریافت تصاویر"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="با روشن بودن این گزینه تصاویر بعد از انتخاب شدن سریعا ارسال می‌شوند و نیازی به تایید شما نیست. (در صورتی که قصد گرفتن چند تصویر با دوربین و ارسال در قالب pdf‌ را دارید بهتر است این گزینه را خاموش کنید.)"
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/swErsalPDF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:padding="5dp"
+                    android:text="ارسال به صورت PDF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="تصاویر قبل از ارسال به فرمت PDF تبدیل می‌گردند و در قالب یک فایل PDF ارسال می‌شوند."
+                    android:textSize="12sp" />
+
+                <Switch
+                    android:id="@+id/swSaveLastIP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:padding="5dp"
+                    android:text="ذخیره آخرین IP"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="آخرین آی پی استفاده شده ذخیره خواهد شد و در اجرای بعدی مجددا بررسی می‌شود."
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@id/cardSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:background="@drawable/button1"
+        android:foreground="?selectableItemBackground"
+        android:text="انتخاب از گالری"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardSettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardSettings">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="تنظیمات"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
