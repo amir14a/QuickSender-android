@@ -2,11 +2,6 @@ package amirabbas.quickcamera;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.os.Handler;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
-import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
 
