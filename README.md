@@ -7,12 +7,13 @@ This app is released for android and windows and you need to install both of the
 
 ## Download
 - [🤖 Download apk for android 🤖](https://amir14a.github.io/QuickSender/QuickSender.apk)
-- [🤖 Download exe for windows 🤖](https://raw.githubusercontent.com/amir14a/QuickSender/master/QuickSedner.exe)
+- [🖥 Download exe for windows 🖥](https://raw.githubusercontent.com/amir14a/QuickSender/master/QuickSedner.exe)
 
 ## Screenshots
-<a href="https://amir14a.github.io/QuickSender/img2.png"><img src="https://amir14a.github.io/QuickSender/img2.png" width="200" ></a>
-<a href="https://amir14a.github.io/QuickSender/img1.jpg"><img src="https://amir14a.github.io/QuickSender/img1.jpg" width="400" ></a>
-
+<p float="top">
+  <a href="https://amir14a.github.io/QuickSender/img2.png"><img src="https://amir14a.github.io/QuickSender/img2.png" width="200" ></a>
+  <a href="https://amir14a.github.io/QuickSender/img1.jpg"><img src="https://amir14a.github.io/QuickSender/img1.jpg" width="400" ></a>
+</p>
 ## Contact
 You can contact me if you like this app or anything else:
 
